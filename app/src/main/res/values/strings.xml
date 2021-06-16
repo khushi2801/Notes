@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="email_of_user">Enter your Email</string>
+    <string name="password_of_user">Enter your Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Log in</string>
+    <string name="new_user">New User? Register Here</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="name_of_user">Enter your name</string>
+    <string name="create_account_button">Sign Up</string>
+    <string name="old_user">Already have an account? Sign In</string>
+
+    <string name="message">Enter your email address and we\'ll send you a link to reset your password</string>
+    <string name="continue_button">Continue</string>
+    <string name="go_back">Go Back To Login Screen</string>
+
+    <string name="reset_password_button">Reset Password</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="no_notes">No notes</string>
+    <string name="add_notes">Tap the Add button to create a note.</string>
+
+    <string name="title">Title</string>
+    <string name="hint">Write your content here</string>
+
+    <string name="search_hint">Search here</string>
+
+    <!--
+    <string name="login_email_id">-</string>
+    <string name="login_password_id">login_password</string>
+    -->
+
+</resources>

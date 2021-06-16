@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/BackgroundStyle"
+    tools:context=".NoteDetails">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar_of_note_details"
+        android:theme="@style/ToolbarStyle" >
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/create_note_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_of_note_details"
+        android:text="Title displayed here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/create_note_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/create_note_detail_title"
+        android:textSize="18sp"
+        android:background="@color/white"
+        android:hint="@string/hint"
+        android:padding="15dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/go_to_edit_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="bottom|end"
+        android:src="@drawable/ic_baseline_edit_24"
+        app:tint="@color/white"
+        app:backgroundTint="@color/blue_600"
+        app:maxImageSize="40dp" >
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>
